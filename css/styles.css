@@ -1,0 +1,151 @@
+body{ 
+    margin: 0;
+}
+
+section{
+    overflow: hidden;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.paragraph{
+    font-size: 22px;
+}
+
+
+header{
+    height: 40px;
+    padding: 10px 5px;
+    position: absolute;
+    background-color: #6699ff;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+
+.nav-links{
+    list-style-type: none;
+    display: inline;
+    margin: 5px 20px 5px 20px;  
+}
+
+#nav-body{
+    float: right;
+    margin: 0;
+}
+
+.link{
+    text-decoration: none;
+    border: solid;
+    color: yellow;
+    line-height: 40px;
+}
+
+#banner{
+    background-image: url('../images/havana banner2.jpg');
+    width: 100%;
+    height: 784px;
+    background-size: cover;
+    background-position: cover;
+
+}
+
+#banner-text{
+    color: red;
+    text-align: center;
+    line-height: 600px;
+    font-size: 80px;
+    
+}
+
+#info-img {
+    width: 600px;
+    padding: 30px;
+}
+
+#info-text {
+    width: 600px;
+    padding: 30px;
+}
+
+
+#info-line{
+    font-size: 55px;
+}
+
+
+#info-btn{
+    background-color: yellow;
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#info-btn:hover{
+    background-color: red;
+    border: 1px solid black;
+    
+}
+
+
+.fa-facebook-square{
+    color:#3b5998;
+}
+
+.fa-twitter{
+    color:#55acee;
+}
+
+.fa-instagram{
+    color:#9b6964;
+}
+
+.social-media{
+    text-decoration: none;
+    padding: 5px;
+}
+
+#red{
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    float: right;
+}
+
+#blue{
+    height: 250px;
+    width: 250px;
+    background-color: blue;
+    clear: right;
+    
+}
+
+#green{
+    height:250px;
+    width: 250px;
+    background-color: green;
+    float: right;
+    
+}
+
+#black{
+    height:250px;
+    width: 250px;
+    background-color: black;
+    clear: right;
+}
